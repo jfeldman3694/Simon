@@ -1,0 +1,111 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <TextView
+            android:id="@+id/round"
+            android:text="Round: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <TextView
+            android:id="@+id/score"
+            android:text="Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <TextView
+            android:id="@+id/high_score"
+            android:text="High Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_weight="0.5" />
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:background="@android:color/holo_green_dark"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="168dp"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_weight="0.5" />
+            <ImageView
+                android:id="@+id/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="168dp"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/start"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/main_menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.3" />
+
+</LinearLayout>

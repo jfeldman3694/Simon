@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Simon</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="gameSpeed_setting">Game Speed</string>
+    <string name="colors_setting">Colors</string>
+    <string name="sound_setting">Sound</string>
+    <string name="hs_clear">Clear High Score</string>
+    <string name="hs_title">High Score Leadership Board</string>
+
+    <string-array name="gameSpeed_choices">
+        <item>Level 1: 1 second</item>
+        <item>Level 2: 0.5 seconds</item>
+        <item>Level 3: 0.25 seconds</item>
+    </string-array>
+
+    <string-array name="color_choices">
+        <item>RED GREEN BLUE ORANGE</item>
+        <item>BLACK GREEN BLUE VIOLET</item>
+    </string-array>
+
+    <string name="ok">OK</string>
+    <string name="title_activity_next">Simon</string>
+    <string name="title_activity_high_score">High Score Activity</string>
+</resources>
